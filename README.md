@@ -1,7 +1,5 @@
-twitter-sentiment-analyzer
+election-prediction-using-twitter-sentiments
 ==========================
-<p> Take a look at simpleDemo.py for a demo </p>
 
-Update
-======
-get_twitter_data.py has been updated to use Twitter API v1.1. Place your consumer_key, consumer_secret, access_token, access_oken_secret in config.json file or pass it via command line. Try test_twitter_data.py for a sample example.
+In this project i have used twitter data for election prediction in UP elections 2017 using naive bayes, Support vector machine and Maximum Entropy classifier.
+Also i have used modified polarity lexicon method to predict the success probability of a given party. 
