@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Election Commission Of UP</title>
+
+
+	
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+
+
+ 
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+ 
+<style>
+
+ body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+	  padding-bottom:100px;
+  }
+  h2 {
+      font-size: 24px;
+      
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  #logo  {
+  
+      margin-top: 4.875rem;
+    margin-bottom: 0.4rem;
+    opacity:1;
+  
+  }
+  .jumbotron {
+  
+
+    
+          background-image: url('s');
+     
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+ 
+  .container-fluid {
+      padding: 10px 20px;
+	  
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #228B22;
+      font-size: 50px;
+  }
+  .logo {
+      color: #228B22;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #000000;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f6f6f6 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #FFFFFF;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  
+  
+  
+/*------------------------------------------------Features----------------------------------------------------------*/
+.features {
+	background-color: #FFF;
+}
+.features > .container
+{
+   padding:20px 0px;
+}
+
+
+/*-------------------------------------------------Product--------------------------------------------------------------*/
+.about
+{
+    background:#ffffff;
+    color:#000;
+}
+.about > .container
+{
+    padding:60px 0px;
+}
+
+img.img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+	}
+        
+border {
+    border-left: 600px solid red;
+    background-color: #696969;
+}
+
+	
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+  </style>
+  
+  </head>
+   
+  
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Elections</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+	    <li class='active'><a href='election.html'><img src="home.png" height="20px" width="20px" style="margin-top:-3px; margin-left:0px;"></a></li>
+
+        <li><a href="#about">ABOUT</a></li>
+		       
+				 <div class="dropdown">
+  <li><button class="dropbtn">OUR PREDICTION</button></li>
+  <div class="dropdown-content">
+    <a href="ele.html">PARTYWISE</a>
+    <a href="result.html">PIE CHARTS</a>
+    
+  </div>
+</div>
+			 <div class="dropdown">
+  <li><button class="dropbtn">MORE</button></li>
+  <div class="dropdown-content">
+    <a href="party.html">PARTIES</a>
+    <a href="const.html">CONSTITUENCIES</a>
+    
+  </div>
+</div>
+       
+        <li><a href="bloghive.php">BLOG</a></li>
+        <li><a href="exitpoll.html">EXIT POLLS</a></li>
+        
+		<li><a href="#contact">CONTACT</a></li>
+		<li><a href="#slider">SLIDER</a></li>
+	
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+<div align="center">
+<img src="banner.jpg" height="150px" width="1350px">
+<!--<img src="collage.jpg" width="1050" height="238" />-->
+</div>
+<div class="jumbotron text-center">
+
+
+  <h1 data-scroll-reveal="wait 0.25s, then enter top and move 60px over 1s">Election Commission Of Uttar Pradesh</h1>
+  <p data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s">Election Prediction</p>
+ 
+  
+  
+</div>
+
+ <section id="about" class="section about">
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+	
+     <h2> About Election Commision Of UP</h2><br>
+      
+      <h4> 
+
+India is a Socialist, Secular, Democratic Republic and the largest democracy in the World. The modern Indian nation state came into existence on 15th of August 1947. Since then free and fair elections have been held at regular intervals as per the principles enshrined in the Constitution, Electoral Laws and System.
+
+The Constitution of India has vested in the Election Commission of India the superintendence, direction and control of the entire process for conduct of elections to Parliament and Legislature of every State and to the offices of President and Vice-President of India.
+
+Election Commission of India is a permanent Constitutional Body..</h4>
+     
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-search logo"></span>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="slider" id="slider">
+        <div class="container">
+  <div align="center">
+  <h2>   Glimpses Of Election</h2>
+  </div>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+	  <li data-target="#myCarousel" data-slide-to="4"></li>
+	  <li data-target="#myCarousel" data-slide-to="5"></li>
+	  <li data-target="#myCarousel" data-slide-to="6"></li>
+	  <li data-target="#myCarousel" data-slide-to="7"></li>
+	  <li data-target="#myCarousel" data-slide-to="8"></li>
+	  <li data-target="#myCarousel" data-slide-to="9"></li>
+    </ol>
+
+  
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="image/gallery1.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery1@2x.jpg"><img src="image/gallery1.jpg" class="img-responsive img-rounded" alt="img"></a>
+      </div>
+      <div class="item">
+        <a href="image/gallery2.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery2@2x.jpg"><img src="image/gallery2.jpg" class="img-responsive img-rounded" alt="img"></a></div>
+        <div class="item">
+        <a href="image/gallery3.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery2@2x.jpg"><img src="image/gallery3.jpg" class="img-responsive img-rounded" alt="img"></a></div>
+		  <div class="item">
+        <a href="image/gallery4.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery2@2x.jpg"><img src="image/gallery4.jpg" class="img-responsive img-rounded" alt="img"></a></div>
+		  <div class="item">
+        <a href="image/gallery5.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery2@2x.jpg"><img src="image/gallery5.jpg" class="img-responsive img-rounded" alt="img"></a></div>
+		  <div class="item">
+        <a href="image/gallery6.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="image/gallery2@2x.jpg"><img src="image/gallery6.jpg" class="img-responsive img-rounded" alt="img"></a></div>
+	
+    
+	</div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+	<section id="contact" class="section contact">
+
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll solve your problem within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Noida, UP</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 7042546839</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> gskgaurav80@gmail.com</p>
+    </div>
+	  
+	  
+
+
+	<form name="myform" action="save.php" method="post">
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+
+		
+	
+  
+         <button class="btn btn-danger pull-right" type="submit" id="submitButton">Submit</button>
+       </form>
+	   </div>
+      </div> 
+    </div>
+  </div>
+</div>
+</section>
+
+
+</script>
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+<div class="container">
+<div class="navbar-text pull-left">
+ <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+<p> 2017 Gskfoundation</p>
+</div>
+   <div class="navbar-text pull-right">
+<a href="www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
+<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+</div>
+</div>
+</div>
+
+
+
+
+  
+  
+  
+  
+  
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  
+  </body>
+</html>
