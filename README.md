@@ -5,3 +5,11 @@ In this project i have used twitter data for election prediction in UP elections
 Also i have used modified polarity lexicon method to predict the success probability of a given party. 
 
 Thanks to Ravikiran Janardhana (https://github.com/ravikiranj) for explaination of these classifiers and everything.
+![Alt text](https://github.com/pratigya10feb/ElectionPrediction/blob/master/website1.PNG?raw=true "Optional Title")
+
+![Alt text](https://github.com/pratigya10feb/ElectionPrediction/blob/master/naive.PNG?raw=true "Optional Title")
+
+
+![Alt text](https://github.com/pratigya10feb/ElectionPrediction/blob/master/svm.PNG?raw=true "Optional Title")
+
+![Alt text](https://github.com/pratigya10feb/ElectionPrediction/blob/master/maxent.PNG?raw=true "Optional Title")
